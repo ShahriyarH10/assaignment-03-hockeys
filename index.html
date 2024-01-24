@@ -5,36 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey's</title>
 
-   <!-- Tailwind and DaisyUI -->
-   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-   <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind and DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-   <!-- manrope google font -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
    <!-- Tailwind costome color -->
-   <script>
-     tailwind.config = {
-       theme: {
-         extend: {
-           colors: {
-            clifford: '#da373d', coralred: '#FF4240', volcanicsand: '#424247'
-           }
-         }
-       }
-     }
-   </script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford: '#da373d', coralred: '#FF4240', volcanicsand: '#424247'
+            }
+            }
+        }
+        }
+    </script>
 
    <!-- font awesome -->
    <script src="https://kit.fontawesome.com/6405847d00.js" crossorigin="anonymous"></script>
 
-   <style>
-       .font-manrope {
-           font-family: 'Manrope', sans-serif;
-       }
-   </style>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
 
 </head>
 <body class="font-manrope">
@@ -79,10 +79,10 @@
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
                     
-                <div class="bg-[#131318] rounded-lg absolute p-8 transform translate-x-2 translate-y-2 right-5 bottom-5 w-1/2">
+                <div class="bg-[#131318] rounded-lg absolute p-8 transform translate-x-2 translate-y-2 right-5 bottom-5 h-[33%] lg:w-1/2">
                     <div class="">
                         <h3 class="text-2xl text-white">Meet all the heroes from the field</h3>
-                        <p class="text-[#ffffff99]">One of the best parts of my job is getting to meet amazing people who are doing amazing things. Some of them are well known—but most quietly do the work of making the world better without fame or recognition.</p> 
+                        <p class="text-[#ffffff99]">One of the best parts of my job is getting to meet. amazing people who are doing amazing things. Some of them are well known—but most quietly do the work of making the world better without fame or recognition.</p> 
                     </div>
                 </div>     
             </div>
@@ -94,7 +94,7 @@
                     <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
 
-                <div class="rounded-lg absolute transform translate-x- translate-y-[-50%] w-1/2 p-8 left-40 top-96">
+                <div class="sm:rounded-lg absolute transform translate-x-2 translate-y-2 right-5 bottom-5 h-[35%] lg:transform translate-x- translate-y-[-50%] p-8 left-40 top-96 w-1/2">
                     <div>
                         <h3 class="text-2xl text-white font-extrabold">Junior Program</h3>
                         <p class="text-white">Program sections, or psects, are sections of code or data that group together parts of a program.
@@ -179,6 +179,7 @@
 
             <div class="grid grid-cols-2 grid-rows-2">
                 <div class="relative">
+                    <img class="rounded-2xl odject-cover" src="images/2.png" alt="">
                     <div class="rounded-lg absolute p-24 top-40">
                         <div class="">
                             <h3 class="text-2xl text-white font-extrabold">Junior Program</h3>
@@ -444,7 +445,7 @@
                 <p class="text-[#13131899] px-10">"Get in touch" is a verb that means to establish communication with someone. It can also mean to establish a relationship or rapport.</p>
             </div>
 
-            <div class="py-10 grid gap-3 grid-cols-2">
+            <div class="py-10 grid gap-3 grid-cols-1 lg:grid-cols-2">
                 <div class="border rounded-lg p-12 flex flex-col gap-6">
                     <div class="bg-[#BCED6D1A] p-8 space-y-6 border-none rounded-xl">
                         <img src="images/Group 1171275317.png" alt="">
@@ -513,9 +514,11 @@
         </section>
     </main>
 
-    <footer class="bg-[#131318] my-10 px-32 py-28">
-        <div class="grid grid-cols-4 gap-10 justify-between">
-            <div class="space-y-3">
+    <footer class="bg-[#131318] mt-10 px-32 py-28">
+
+        <div class="grid grid-cols-4 gap-10 justify-between lg:grid-cols-4">
+
+            <div class="space-y-3 col-span-4">
                 <h3 class="text-2xl text-[#FFFFFF] font-extrabold">Get In Touch</h3>
                 <p class="text-[#FFFFFF99]">Maintains relationships with equipment suppliers to create a mutually beneficial communication system</p>
                 <div class="flex flex-row gap-2">
@@ -528,7 +531,7 @@
                 </div>
             </div>
            
-            <div>
+            <div class="col-span-2">
                 <h3 class="text-[#FFFFFF] font-extrabold">Company</h3>
                 <ul class="text-[#FFFFFF99]">
                     <li>About us</li>
@@ -539,7 +542,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="col-span-2">
                 <h3 class="text-[#FFFFFF] font-extrabold">Support</h3>
                 <ul class="text-[#FFFFFF99]">
                     <li> Help Center</li>
@@ -549,7 +552,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="col-span-4 text-center">
                 <h3 class="text-[#FFFFFF] font-extrabold">Services</h3>
                 <ul class="text-[#FFFFFF99]">
                     <li>Academy</li>
@@ -560,8 +563,6 @@
                 </ul>
             </div>
         </div>
-        
-
     </footer>
 </body>
 </html>
